@@ -23,19 +23,20 @@ Repository contents
 Recommended structure after uploading the files:
 ```text
 ODU-Module5-Diffusion-DDM/
-├── README.md
-├── ODU_Module5_DDM_Wahab_POOLING_FIXED.ipynb
-├── ODU_Module5_DDM_Analysis_Report.pdf
-└── module5_ddm_outputs/
-    ├── run_metadata.json
-    ├── training_history.csv
-    ├── training_loss.png
-    ├── samples_20.png
-    ├── samples_50.png
-    ├── samples_200.png
-    ├── samples_1000.png
-    ├── ablation_side_by_side.png
-    └── ablation_times.csv
+ README.md
+ notebooks/
+    ODU_Module5_DDM_Wahab_POOLING_FIXED.ipynb
+ results/
+    training_loss.png
+    samples_20.png
+    samples_50.png
+    samples_200.png
+    samples_1000.png
+    ablation_side_by_side.png
+    ablation_times.csv
+     training_history.csv
+ report/
+ ODU_Module5_DDM_Analysis_Report.pdf
 ```
 The results files are available in `module5_ddm_outputs.zip`; extract them before uploading to the repository if you want the figures to be browsable directly on GitHub. The paths above assume that you upload the files under those names.
 How to reproduce
