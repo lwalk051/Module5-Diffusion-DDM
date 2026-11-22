@@ -1,0 +1,42 @@
+{
+  "seed": 42,
+  "dataset": "nunenuh/pytorch-challange-flower-dataset (Oxford 102 Flowers)",
+  "valid_images": 8189,
+  "image_size": 64,
+  "epochs_requested_this_session": 10,
+  "epochs_completed_total": 10,
+  "batch_size": 32,
+  "repeats_per_epoch": 5,
+  "steps_per_epoch": 1275,
+  "learning_rate": 0.0001,
+  "loss": "MAE (n_loss)",
+  "tensorflow": "2.16.2",
+  "python": "3.10.14",
+  "gpu_devices": [
+    "PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')"
+  ],
+  "training_seconds_this_session": 1234.8621867760085,
+  "checkpoint": "module5_ddm_outputs/checkpoint.weights.h5",
+  "default_20_steps_seconds_per_sample": 0.18404812905646395,
+  "sampling_ablation": [
+    {
+      "sampling_steps": 50,
+      "num_images": 16,
+      "total_seconds": 0.32846954511478543,
+      "seconds_per_sample": 0.02052934656967409
+    },
+    {
+      "sampling_steps": 200,
+      "num_images": 16,
+      "total_seconds": 1.285833302885294,
+      "seconds_per_sample": 0.08036458143033087
+    },
+    {
+      "sampling_steps": 1000,
+      "num_images": 16,
+      "total_seconds": 6.356465409044176,
+      "seconds_per_sample": 0.397279088065261
+    }
+  ],
+  "implementation": "Standalone Foster-style adaptation; not verbatim repository notebook"
+}
