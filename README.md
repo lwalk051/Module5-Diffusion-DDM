@@ -25,7 +25,7 @@ Recommended structure after uploading the files:
 ODU-Module5-Diffusion-DDM/
  README.md
  notebooks/
-    ODU_Module5_DDM_Wahab_POOLING_FIXED.ipynb
+    ODU_Module5_DDM.ipynb
  results/
     training_loss.png
     samples_20.png
